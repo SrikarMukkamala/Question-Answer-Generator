@@ -4,7 +4,14 @@ The output file can be downloaded as well.
 In the app.py file, line no. 30, please paste your openapi key 
 to use the model. Failing to do so will result in error.
 
-Run the following command in the terminal to render the app:
+To get this app running, run the following in terminal:
+
+git clone https://github.com/SrikarMukkamala/Question-Answer-Generator.git
+
+cd Question-Answer-Generator
+
+pip install -r requirements.txt
 
 uvicorn app:app --reload
+
 
