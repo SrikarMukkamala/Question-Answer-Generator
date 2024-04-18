@@ -1,0 +1,10 @@
+The uploaded document will be stored in static/docs and
+the QnA generated file will be stored in static/output
+The output file can be downloaded as well. 
+In the app.py file, line no. 30, please paste your openapi key 
+to use the model. Failing to do so will result in error.
+
+Run the following command in the terminal to render the app:
+
+uvicorn app:app --reload
+
